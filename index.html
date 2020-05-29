@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souvik Baruah</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.1/css/swiper.min.css">
+
+    <style>
+        body 
+    {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container 
+    {
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        z-index:0;
+    }
+    .swiper-slide 
+    {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 380px;
+        box-shadow: 15px 15px 15px rgba(0,0,0,0.5);
+
+    }
+    .swiper-slide .imgbx img{
+        object-fit:cover;
+        height:300px;
+        width:300px;
+      
+    }
+    .swiper-slide .imgbx{
+        width:100%;
+        height:300px;
+        overflow:hidden;
+    }
+    .swipper-slide .imgbx img{
+        width:100%;
+    }
+    .swipper-slide .details{
+        box-sizing:border-box;
+        padding:20px;
+    }
+    .swipper-slide .details h3{
+        margin:0;
+        padding:0;
+        font-size:14px;
+        text-align: center;
+        line-height:20px;
+    }
+    .swipper-slide .details h3 span{
+        font-size:16px;
+        color:#ff0000 !important;
+      
+    }
+      </style>
+
+</head>
+<body> 
+
+    <!--header section-->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md"> 
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40 text-justify text-center">&nbsp SOUVIK</a>
+                        <p class="description text-uppercase font-os text-justify text-center">Souvik Baruah</p>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about" class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#skill" class="nav-item nav-link text-white-50 font-os font-size-16 active">Skills</a>
+                        <a href="#project" class="nav-item nav-link text-white-50 font-os font-size-16 active">Projects</a>
+                        <a href="#special" class="nav-item nav-link text-white-50 font-os font-size-16 active">Specials</a>
+                        <a href="#gallery" class="nav-item nav-link text-white-50 font-os font-size-16 active">Gallery</a>
+                        
+                        <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact Me</a>
+                       
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class='toggle-button'><span class='fas fa-bars fa-2x'></span></button>
+        <div>
+            <span class="mr-3"><i class="fab fa-facebook-f"></i></span>
+            <span class="mr-3"><i class="fab fa-twitter"></i></span>
+            <span class="mr-3"><i class="fab fa-instagram"></i></span>
+            <span class="mr-3"><i class="fab fa-youtube"></i></span>
+        </div>
+    </header>
+    <!--end of header section-->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!--home-->
+                
+                <section class="site-banner" id="home">
+                    <div class="banner-area" id="particles-js">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-white font-staat font-size-40 text-uppercase py-3">Souvik Baruah</h1>
+                            <h5 class="text-white font-ram font-size-27">I love <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                
+                <!--#home-->
+
+
+
+                <!--about-->
+                    <section class="about px-4 my-5" id="about">
+                        <div class="me py-5">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">about me</h1>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-sm-5 pl-0">
+                                <img src="./assets/me21.jpg" alt="profile image" class="img-fluid">
+                            </div>
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                                <h5 class="font-ram font-size-20 py-2">I'm Souvik Baruah & I Love <span id="typed_2"></span></h5>
+                                <p class="font-ram text-black-50 py-2">I'm a Computer Science & Engineering (B.Tech) undergrad currently in my 2nd year of college.
+                                    I learn everyday and like to implement the knowledge gained by doing some practical and interesting projects.
+                                    I'm a Deep Learning and Data Science enthusiast with some real interest in Web Development. I have experience in doing projects in several 
+                                    domains, some of which are listed on the 'Projects' section of this site. For more information about me you can download my resume by clicking
+                                    the 'Download Resume' button below. This website you are viewing is my first Web Development project where I tried to implement the combined
+                                    possibilities of HTML5, CSS3, JavaScript and Bootstrap 4 along with some JS libraries and frameworks. Hope you like the site!
+                                </p>
+                                <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="font-ram"><b>Birthday: </b><span class="text-black-50">25 December 1999</span></p>
+                                        <p class="font-ram"><b>Website: </b><span class="text-black-50">souvikbaruah.github.io</span></p>
+                                        <p class="font-ram"><b>Phone No: </b><span class="text-black-50">+91 6000032840</span></p>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <p class="font-ram"><b>Degree: </b><span class="text-black-50">B.Tech (CSE), 2nd Year</span></p>
+                                        <p class="font-ram"><b>Email: </b><span class="text-black-50">baruahsouvik@gmail.com</span></p>
+                                        <p class="font-ram"><b>Instagram: </b><span class="text-black-50">@sickboy_souvik</span></p>
+                                    </div>
+                                </div>
+                                <a href="#footer"><button class="btn btn-dark mr-3">Contact Me</button></a>
+                                <a href="https://drive.google.com/drive/folders/14dn3UKZ-BESJAaAybMDsGiwUmPFUt3-E?usp=sharing"><button class="btn btn-dark mr-3">Download Resume</button></a>
+                            </div>
+                        </div>
+                    </section>
+                <!--#about-->
+
+
+
+                <!--skills-->
+                <section class="skill px-4 py-5 bg-light" id="skill">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">my skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6" pl-4>
+                            <p class="font-ram font-size-16 text-black-50 pb-3">Technical Skills: Java, C, C++, R, SQL, HTML5, CSS3, Bootstrap 4, Python, Deep Learning, Data Science, Machine
+                                Learning, Data Analysis, Data Modeling, Image Processing, Data Structures, Artificial
+                                Intelligence (AI), Data Visualization, Matlab, Linux, Pandas, Bitbucket, Tkinter, Arduino,
+                                Raspberry Pi, Asana, Amazon Web Services (AWS), Anaconda, Google Cloud Platform (GCP),
+                                Spark AR Studio, Java Swing, Java AWT, Neural Networks, Microsoft Word, Microsoft
+                                PowerPoint, Microsoft Excel, JavaScript, PHP.
+                            </p>
+                            <p class="font-ram font-size-16 text-black-50">Soft Skills: Public Speaking, Presentation, Leadership, Motivator, Effective Communication.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 bars">
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Java</p>
+                                    <span class="font-ram font-size-16">92%</span>
+                                </div>
+                                <div class="progress" style="height:3px">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:92%"></div>
+                                </div>
+                            </div>
+
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">Python</p>
+                                    <span class="font-ram font-size-16">90%</span>
+                                </div>
+                                <div class="progress" style="height:3px">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:90%"></div>
+                                </div>
+                            </div>
+
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">C++</p>
+                                    <span class="font-ram font-size-16">85%</span>
+                                </div>
+                                <div class="progress" style="height:3px">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:85%"></div>
+                                </div>
+                            </div>
+
+                            <div class="bar-1 mb-4">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <p class="font-ram font-size-16">C</p>
+                                    <span class="font-ram font-size-16">90%</span>
+                                </div>
+                                <div class="progress" style="height:3px">
+                                    <div class="progress-bar bgcolor-black" role="progressbar" style="width:95%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <!--#skills-->
+
+
+
+                <!--projects-->
+                <section class="work py-5 px-4" id="project">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Portfolio</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Featured Projects</h1>
+                    </div>
+                    <div class="row">
+                        <!--<div class="col-sm-4 pb-4">
+                            <img src="assets/work/01.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/work/02.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/work/03.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/work/04.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/work/05.jpg" alt="work1" class="img-fluid">
+                        </div>
+                        <div class="col-sm-4 pb-4">
+                            <img src="assets/work/06.jpg" alt="work1" class="img-fluid">
+                        </div>-->
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/1.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>Calculator 2.0</h2>
+                                    <p>A simple calculator designed with Java AWT which can perform all the basic operations efficiently</p>
+                                    <a href="https://github.com/souvikbaruah/Calculator-2.0" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/2.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>BTS AR Filter</h2>
+                                    <p>An instagram AR camera effect made in Spark AR Studio <br>(over 110K total impressions on Instagram) </p>
+                                    <a href="https://github.com/souvikbaruah/bts-instagram-camera-effect" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/3.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>CNN Model To Detect Liveness of Fingerprint</h2>
+                                    <p>A CNN Model designed to distinguish between a fake fingerprint and a live fingerprint. It uses feedforward and backpropagation algorithm technique.</p>
+                                    <a href="https://github.com/souvikbaruah/CNN-Model-Detecting-Liveness-of-Fingerprint-using-Deep-Learning-" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/4.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>VGG16 Model To Detect Liveness of Fingerprint</h2>
+                                    <p>The main purpose of this model is to compare the previous CNN model with this one which makes use of the pre-defined VGG16 architecture</p>
+                                    <a href="https://github.com/souvikbaruah/CNN-VGG16-Model-Detecting-Liveness-of-Fingerprint-using-Deep-Learning" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/5.png">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>Breaking Bad AR Filter</h2>
+                                    <p>An instagram AR camera effect made in Spark AR Studio <br>(over 40K total impressions on Instagram)</p>
+                                    <a href="https://github.com/souvikbaruah/breaking-bad-camera-effect-instagram" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/6.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>AES Encryption</h2>
+                                    <p>A simple implementation of 128 bit AES Rijndael encryption in Python</p>
+                                    <a href="https://github.com/souvikbaruah/AES-Encrption-Using-Python" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/7.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>Auto Sudoku</h2>
+                                    <p>A sudoku solver made using Pygame. Pressing the spacebar launches the 'auto-solve' mode</p>
+                                    <a href="https://github.com/souvikbaruah/Auto-Sudoku" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="imgbox">
+                                <img src="assets/work/8.jpg">
+                            </div>
+                            <div class="details">
+                                <div class="content">
+                                    <h2>Blink Detector</h2>
+                                    <p>It is a blink detector which counts the number of times the person in the frame of the webcam blinks</p>
+                                    <a href="https://github.com/souvikbaruah/Blink-Detection" class="btn">See Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!--#projects-->
+
+                <!--specials-->
+                <section class="work py-5 px-4 bg-gradient-light" id="special">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Special Mention</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Stanford University</h1>
+                    </div>
+                    <div class="row m-0 justify-content-between">
+                        <div class="col-sm-6">
+                            <h5 class="font-ram font-size-20 py-3">Stanford University's <span id="typed_3"></span></h5>
+                            <p class="font-ram text-black-50 py-3">To be honest, the year 2019 was really a blessing in my life. First of all, I got a golden opportunity to represent my college at the 2019 MICE Destination Marketing Contest 
+                                organized by the International Trade Institute, Taiwan External Trade Development Council (TAITRA), Taipei dated September 17-19, 2019. It was my first fully sponsored overseas academic trip!
+                                I gave a presentation cum speech at the International Convention Centre,Taiwan pitching my idea about how the next big MICE event can be organised in my home state Assam properly explaining about
+                                the resources and their efficient utilization. I got to exchange my ideas with brilliant teams from other countries (around 16 countries from all around the world participated in the event!).
+                                
+                                <br><br><br>The next big thing, perhaps the biggest of all, happened when my application to Stanford University's 2020 Summer Session got accepted! Not only that, my proposal of an early-stage start-up also got selected
+                                for the Silicon Valley Innovation Academy (SVIA) which was a part of the Summer Session programme! I cried in happiness that day, I mean who doesn't know about Stanford University! It is almost every student's dream to 
+                                enter Stanford's campus once in their lifetime! 
+                                
+                                <br><br><br>However, since good things do not last long, after about half-a-month from the selection day the pandemic COVID-19 broke out! Situations became worse day by day and finally with a heavy heart I was forced to take
+                                the decision to not attend the Summer Session! It was just next to impossible to travel from Assam,India to the US during these harsh conditions as the entire nation was in a lockdown phase and travelling was too risky.
+                                I became terribly sad but I had to accept the truth, there was no other way! The selection of the courses for the Summer Session was scheduled to take place online in the month of April and it wasn't really a good idea to 
+                                select courses and make the required payments as I was sure that I won't be able to travel to the US during this period. Hence, the dream of entering the prestigious campus finally came to an end.The offer letter is being
+                                displayed in this section which is the only thing that I have with me now as a proof of selection to Stanford Summer Session 2020 and I really value that letter. You can have a look at it.
+                            </p>
+                        </div>
+                        <div class="picture col-sm-6 pl-5 py-0">
+                            <img src="./assets/work/stanford.jpg" alt="profile image" class="img-fluid">
+                        </div>
+                    </div>
+                </section>
+                <!--#specials-->
+
+                <!--gallery-->
+                <section class="work py-5 px-4 bg-light" id="gallery">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Gallery</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Precious Moments</h1>
+                    </div>
+                    <!-- Swiper -->
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/1.JPG">
+                            </div>
+                            <div class="details">
+                              <p class="text-center font-size-16 px-3 py-3 font-ram2">Taipei International Convention Center (TICC), Taiwan</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/2.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">MICE Destination Marketing Contest 2019 Exhibitor Badge</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/3.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">Presentation at the TICC</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/4.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Introductory speech prior to the <br>start of the event</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/5.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">Pitching my idea at the TICC</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/6.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">Exhibition Booth, TICC</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/7.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">Recognition Plaque</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/8.png">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">In Taipei 101 after the event</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/9.jpg">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">After the successful completion <br>of the event</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/10.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Stanford Summer Session 2020 <br>Offer Letter</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/11.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Silicon Valley Innovation Academy <br>Offer Letter</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/12.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Felicitation Ceremony, <br>Army Public School Jorhat</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/13.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Felicitation Ceremony, <br>Army Public School Jorhat</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/14.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-4 font-ram2">Congratulatory Plaque</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/15.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Certificate of completion of <br>internship at IIT Indore</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/16.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Research Conclave 2019, <br>IIT Guwahati</p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/17.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Model Presentation RC'19, <br>IIT Guwahati
+                                </p>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="imgbx">
+                              <img src="assets/inframe/18.JPG">
+                            </div>
+                            <div class="details">
+                                <p class="text-center font-size-16 px-3 py-3 font-ram2">Winner: Egg-Drop Challenge<br>Technovus'19, JEC
+                                </p>
+                            </div>
+                          </div>
+                        </div>
+                </section>
+                <!--#gallery-->
+
+                
+
+                <!--contact me-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">location</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-6">
+                                <h6 class="text-uppercase font-ram font-size-20 text-dark px-2">Souvik Baruah</h6>
+                                <p class="font-ram w-55 font-size-16 text-black-50 px-2">For any queries or projects you can contact me using the information provided below.
+                                    <br>To see more of my projects you can visit my GitHub by clicking <span><a href="https://github.com/souvikbaruah">here.</a></span>
+                                </p>
+                                <p class="font-ram font-size-16 text-black-50 pt-4 px-2">PHONE: +91 6000032840</p>
+                                <p class="font-ram font-size-16 text-black-50 px-2">EMAIL: baruahsouvik@gmail.com</p>
+                                <p class="font-ram font-size-16 text-black-50 px-2">ADDRESS: Rosendra Nagar, Sarbaibandha, JB Road, Jorhat</p>
+                                <p class="font-ram font-size-16 text-black-50 px-2">PIN: 785001</p>
+                            </div>
+                            <div class="col-sm-6 py-4 px-4">
+                                <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                                <form action="MAILTO:baruahsouvik@gmail.com" method="post" enctype="text/plain" class="py-3">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="" id="" cols="30" rows="3" class="form-control my-4" placeholder="Leave me a mesaage..."></textarea>
+                                    <button type="submit" class="btn btn-dark">Say Hello!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bh-light py-4 bg-light">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2020 Souvik Baruah. All rights reserved</h6>
+                            </div>
+                            <div class="col-sm-4 my-4 text-center">
+                                <div class="footer-title">
+                                    <a href="#" class="navbar-brand font-staat font-size-40 text-dark">&nbsp S O U V I K</a>
+                                    <p class="description font-os font-size-16 text-black-50 text-uppercase">Souvik Baruah</p>
+                                </div>
+                            </div>
+                            <div class="col-sm-4 my-5 text-center">
+                                <a href="https://www.facebook.com/souvik.baruah.92" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-facebook"></i></span></a>
+                                <a href="https://www.linkedin.com/in/souvik-baruah/" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-linkedin"></i></span></a>
+                                <a href="https://github.com/souvikbaruah" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-github"></i></span></a>
+                                <a href="https://www.instagram.com/sickboy_souvik/" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-instagram"></i></span></a>
+                                <a href="https://www.youtube.com/channel/UCu_W5UwAK2ycOXdrty0UBWQ" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-youtube"></i></span></a>
+                                <a href="https://www.hackerrank.com/baruahsouvik" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-hackerrank"></i></span></a>
+                                <a href="https://bitbucket.org/baruahsouvik/" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-bitbucket"></i></span></a>
+                                <a href="https://twitter.com/baruah_souvik" style="color:black"><span class="mr-3 font-size-20"><i class="fab fa-twitter"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!--#contact me-->
+            </div>
+        </div>
+    </main>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs=" crossorigin="anonymous"></script>
+
+<script src="./vendor/typed/typed.min.js"></script>
+
+<script type="text/javascript " src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.1/js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+</script>
+
+<script type="text/javascript" src="js/particles.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+<script src="./index.js"></script>
+</body>
+</html>
